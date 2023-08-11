@@ -82,7 +82,7 @@ const Topsellings = () => {
                   </Card.Title>
                   <Card.Text>
                     <FontAwesomeIcon icon={faLocationArrow} />
-                    <span>28 Days Trip.</span>
+                    <span>28 Days Trip</span>
                   </Card.Text>
                 </Card.Body>
               </Card>

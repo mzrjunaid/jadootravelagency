@@ -2,7 +2,7 @@ import React from 'react'
 
 const DropdownButton = () => {
   return (
-    <div>DropdownButton</div>
+    <div>DropdownButton.</div>
   )
 }
 
