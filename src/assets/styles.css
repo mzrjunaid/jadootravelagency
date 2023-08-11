@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@500&family=Volkhov&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@500&display=swap");
+
+:root {
+  --font-poppins: "Poppins";
+  --font-GoogleSans: "Google Sans";
+  --font-Volkhov: "Volkhov";
+  --font-OpenSans: "Open Sans";
+
+  --text-size: 1.0625rem;
+  --heading-size: 1.5rem;
+  --paragraph-size: 0.9rem;
+  --bgcolor: #d9d9d9;
+  --primary-color: #181e48;
+  --secondary-color: #df6951;
+  --link-color: #212832;
+  --text-color: #5e6282;
+  --button-yellow: #f1a501;
+  --heading-color: #1e1d4c;
+
+  --card-box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px
+      rgba(0, 0, 0, 0),
+    0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+    0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01),
+    0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02),
+    0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+* {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bgcolor) !important;
+}
+
+.hero-content {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+.hero-background {
+  height: 45rem;
+}
+
+.dropdown-menu {
+  min-width: 3rem !important;
+}
+
+.link-text-size {
+  font-family: var(--font-GoogleSans), sans-serif;
+  font-size: var(--text-size) !important;
+  font-weight: 600 !important;
+}
+
+.nav-link {
+  margin-right: calc(2.5rem / 2);
+  margin-left: calc(2.5rem / 2);
+}
+
+.nav-menu-link:hover {
+  margin: 0;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--link-color);
+  min-width: 6.375rem;
+  text-align: center;
+}
+
+.headings {
+  font-family: "Volkhov", serif;
+}
+
+.hero-text {
+  padding-top: 5rem;
+  padding-left: 4rem;
+}
+
+.hero-subtitle {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 1.25rem;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.hero-title,
+.hero-title span {
+  color: var(--primary-color);
+  font-family: Volkhov;
+  font-size: 4.7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.5625rem; /* 105.952% */
+  letter-spacing: -0.21rem;
+}
+
+.hero-title span {
+  background-image: url("./img/text\ underline\ header.png");
+  display: inline-block;
+  width: 16rem;
+  background-size: contain;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+.hero-paragraph {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+  padding-right: 20%;
+}
+
+.hero-button {
+  width: 170px;
+  height: 60px;
+  color: var(--white, #fff) !important;
+  border-radius: 0.625rem !important;
+  background: var(--button-yellow, #f1a501) !important;
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.3) !important;
+}
+
+.hero-play-button {
+  width: 60px;
+  height: 60px;
+  color: var(--white, #fff) !important;
+  border-radius: 0.625rem !important;
+  background: #df6951 !important;
+  box-shadow: 0px 20px 35px 0px rgb(223, 105, 81, 0.3) !important;
+}
+
+.play-button-text {
+  color: #686d77;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1rem;
+}
+
+.section {
+  padding: 0 9.63rem !important;
+  padding-top: 6.06rem !important;
+}
+
+.services-title {
+  background-image: url("../assets/img/stars.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.sec-title-container {
+  text-align: center !important ;
+  padding-bottom: 6.06rem !important;
+}
+
+.sec-subtitle {
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: normal;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.sec-title {
+  color: var(--3rd, #14183e);
+  font-family: var(--font-Volkhov);
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.services .card {
+  height: 19.625rem !important;
+  max-width: 16.6875rem !important;
+  border-radius: 2.25rem !important;
+  padding-top: 1rem;
+  padding-left: 0.67rem;
+  padding-right: 0.67rem;
+  border: none !important;
+}
+
+.services .card:hover {
+  box-shadow: var(--card-box-shadow);
+}
+
+.services .card:hover:before {
+  content: url("../assets/img/cardrectangle.svg");
+  position: absolute;
+  bottom: -2.2rem;
+  left: -1.8rem;
+  z-index: -1;
+}
+
+.services .card img {
+  width: 5.75rem;
+  height: 4.875rem;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.services .card-title {
+  color: var(--heading-color, #1e1d4c);
+  text-align: center;
+  font-family: var(--font-OpenSans), sans-serif;
+  font-size: 1rem !important;
+  font-weight: 600;
+  line-height: normal;
+  margin: 1rem 0 !important;
+}
+
+.services .card-text {
+  color: var(--textclr, #5e6282);
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+.selling .card {
+  max-width: 19.6875rem;
+  height: 28.5625rem;
+  border-radius: 1.5rem !important;
+  background: #fff;
+  overflow: hidden !important;
+  box-shadow: var(--card-box-shadow);
+  border: none !important;
+  z-index: 999;
+}
+
+.selling .card img {
+  height: 20.875rem;
+  flex-shrink: 0;
+  align-self: center;
+  background-repeat: no-repeat;
+}
+
+.selling .card-title {
+  margin: 1rem 0rem !important;
+}
+
+.selling .card .card-title span {
+  color: var(--textclr, #5e6282);
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.5%; /* 1.40063rem */
+}
+
+.selling .card .card-text span {
+  color: var(--textclr, #5e6282);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.5%; /* 1.245rem */
+  margin-left: 1rem;
+}
+
+.selling {
+  position: relative;
+}
+
+.selling .decore::after {
+  content: url("../assets/img/Decore.svg");
+  position: absolute;
+  bottom: 2rem;
+  right: 6.3rem;
+  z-index: 1;
+}
