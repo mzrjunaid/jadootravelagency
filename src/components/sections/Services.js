@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <Container className="services section">
       <Row>
-        <div className="services-title sec-title-container">
+        <div className="services-title sec-title-container text-center">
           <h6 className="sec-subtitle" style={{ textTransform: "uppercase" }}>
             Category
           </h6>

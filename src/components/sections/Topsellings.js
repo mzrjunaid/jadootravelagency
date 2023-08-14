@@ -7,7 +7,7 @@ const Topsellings = () => {
   return (
     <Container className="selling section">
       <Row>
-        <div className="sec-title-container">
+        <div className="sec-title-container text-center">
           <h6 className="sec-subtitle">Top Selling</h6>
           <h2 className="sec-title">We Offer Best Services</h2>
         </div>
@@ -34,7 +34,7 @@ const Topsellings = () => {
                   </Card.Title>
                   <Card.Text>
                     <FontAwesomeIcon icon={faLocationArrow} />
-                    <span>10 Days Trip</span>
+                    <span className="text-small">10 Days Trip</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -58,7 +58,7 @@ const Topsellings = () => {
                   </Card.Title>
                   <Card.Text>
                     <FontAwesomeIcon icon={faLocationArrow} />
-                    <span>12 Days Trip</span>
+                    <span className="text-small">12 Days Trip</span>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -82,7 +82,7 @@ const Topsellings = () => {
                   </Card.Title>
                   <Card.Text>
                     <FontAwesomeIcon icon={faLocationArrow} />
-                    <span>28 Days Trip</span>
+                    <span className="text-small">28 Days Trip</span>
                   </Card.Text>
                 </Card.Body>
               </Card>

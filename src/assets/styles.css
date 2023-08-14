@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@500&family=Volkhov&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500&family=Volkhov&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@700&family=Volkhov&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@500&display=swap");
 
 :root {
@@ -17,6 +18,7 @@
   --text-color: #5e6282;
   --button-yellow: #f1a501;
   --heading-color: #1e1d4c;
+  --progress-color: #8a79df;
 
   --card-box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px
       rgba(0, 0, 0, 0),
@@ -141,7 +143,7 @@ body {
 
 .play-button-text {
   color: #686d77;
-  font-family: Poppins;
+  font-family: var(--font-poppins);
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -161,7 +163,6 @@ body {
 }
 
 .sec-title-container {
-  text-align: center !important ;
   padding-bottom: 6.06rem !important;
 }
 
@@ -263,10 +264,10 @@ body {
   line-height: 124.5%; /* 1.40063rem */
 }
 
-.selling .card .card-text span {
+.card .text-small {
   color: var(--textclr, #5e6282);
-  font-family: Poppins;
-  font-size: 1rem;
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
   line-height: 124.5%; /* 1.245rem */
@@ -283,4 +284,65 @@ body {
   bottom: 2rem;
   right: 6.3rem;
   z-index: 1;
+}
+
+
+.booking .trip {
+  max-width: 23.125rem;
+  min-height: 25rem;
+  flex-shrink: 0;
+  border-radius: 1.625rem;
+  box-shadow: var(--card-box-shadow);
+  padding: 1.25rem 1.56rem;
+  z-index: 888;
+}
+
+.booking .card .title {
+  color: var(--black, #080809);
+  font-family: var(--font-poppins);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.40063rem;
+  letter-spacing: 0.01688rem;
+}
+
+.booking .card .card-img {
+  width: 20.0625rem;
+  height: 10.0625rem;
+  flex-shrink: 0;
+  border-radius: 1.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+}
+
+.booking .card .card-body img {
+  margin-right: 1.12rem !important;
+}
+
+.booking .ongoing-trip {
+  bottom: 8rem;
+  right: 8rem;
+  width: 16.4375rem;
+  flex-shrink: 0;
+  z-index: 999;
+  box-shadow: var(--card-box-shadow);
+}
+
+.booking .ongoing-trip .progress-bar {
+  background-color: var(--progress-color) !important;
+}
+
+.booking .booking-title {
+  color: var(--text-color);
+  font-family: var(--font-poppins);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124.5%; /* 1.245rem */
+}
+
+.booking .sec-title-container {
+  padding-bottom: 0rem !important;
 }
