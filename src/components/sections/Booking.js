@@ -22,7 +22,7 @@ const Booking = () => {
             <div className="sec-title-container text-left mb-3 pb-2">
               <h6 className="sec-subtitle text-left">Easy and Fast</h6>
               <h2 className="sec-title text-left">
-                Book Your Next Trip <br /> In 3 Easy Steps
+                Book Your Next Trip In 3 Easy Steps
               </h2>
             </div>
           </Row>
