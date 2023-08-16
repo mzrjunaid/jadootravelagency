@@ -9,7 +9,7 @@
   --font-Volkhov: "Volkhov";
   --font-OpenSans: "Open Sans";
 
-  --text-size: 1.0625rem;
+  --text-size: 1rem;
   --heading-size: 1.5rem;
   --paragraph-size: 0.9rem;
   --bgcolor: #d9d9d9;
@@ -38,22 +38,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-body {
-  background-color: var(--bgcolor) !important;
-}
-
-.hero-content {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
-}
-
-.hero-background {
-  height: 45rem;
 }
 
 .dropdown-menu {
@@ -90,39 +74,28 @@ body {
 
 .hero-subtitle {
   color: var(--secondary-color);
-  font-weight: 700;
-  font-size: 1.25rem;
   font-style: normal;
   line-height: normal;
-  text-transform: uppercase;
+  font-size: calc(var(--text-size) + 0.2rem);
 }
 
 .hero-title,
 .hero-title span {
   color: var(--primary-color);
-  font-family: Volkhov;
-  font-size: 4.7rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 5.5625rem; /* 105.952% */
-  letter-spacing: -0.21rem;
+  font-family: var(--font-Volkhov), serif;
+  font-size: calc(var(--text-size) + 3rem);
 }
 
 .hero-title span {
   background-image: url("./img/text\ underline\ header.png");
   display: inline-block;
-  width: 16rem;
   background-size: contain;
-  background-position-y: bottom;
+  background-position-y: 86%;
   background-repeat: no-repeat;
 }
 
 .hero-paragraph {
-  color: var(--text-color);
-  font-size: 0.9rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px; /* 187.5% */
+  color: var(--text-color) !important;
   padding-right: 20%;
 }
 
@@ -138,8 +111,6 @@ body {
 .hero-play-button {
   width: 60px;
   height: 60px;
-  color: var(--white, #fff) !important;
-  border-radius: 0.625rem !important;
   background: #df6951 !important;
   box-shadow: 0px 20px 35px 0px rgb(223, 105, 81, 0.3) !important;
 }
@@ -147,11 +118,7 @@ body {
 .play-button-text {
   color: #686d77;
   font-family: var(--font-poppins);
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-left: 1rem;
+  font-size: calc(var(--text-size) + 0.2rem);
 }
 
 .section {

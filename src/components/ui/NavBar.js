@@ -19,7 +19,7 @@ function NavBar() {
     <>
       <Navbar expand="lg" className="mb-3 mt-4">
         <Container>
-          <Navbar.Brand href="#" style={{ marginLeft: "4rem" }}>
+          <Navbar.Brand href="#">
             <Image src={require("../../assets/img/Logo.png")} alt="Jaddo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
