@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <Container className="p-0 pb-5" style={{ backgroundColor: "#fff"}}>
+    <Container className="p-0" style={{ backgroundColor: "#fff"}}>
       <Home />
     </Container>
   );

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500&family=Volkhov&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@700&family=Volkhov&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@600");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@700");
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@500&display=swap");
 
 :root {
@@ -20,6 +21,7 @@
   --heading-color: #1e1d4c;
   --progress-color: #8a79df;
   --btn-color: #3e2e4d;
+  --gradient: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
 
   --card-box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px
       rgba(0, 0, 0, 0),
@@ -392,6 +394,9 @@ body {
 .indicators {
   color: #e5e5e5 !important;
 }
+.slick-slide {
+  height: 10rem !important;
+}
 .slick-slide .company-logo img {
   width: 9rem;
   height: 9rem;
@@ -402,4 +407,49 @@ body {
   border-radius: 0.625rem;
   background: var(--white, #fff);
   box-shadow: var(--card-box-shadow);
+}
+
+.subscribe {
+  background-image: url(../assets/img/starsBottom.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-position-x: 95%;
+  z-index: 1;
+}
+
+.sub-box {
+  background-image: url("../assets/img/bg-sub.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.25rem;
+  position: relative;
+}
+
+.sub-box h4 {
+  color: var(--textclr, #5e6282);
+  text-align: center;
+  font-family: var(--font-poppins);
+  font-size: 2.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.375rem; /* 163.636% */
+}
+
+#email-button {
+  border: none;
+  border-radius: 0.625rem;
+  background: var(
+    --gradient,
+    linear-gradient(180deg, #ff946d 0%, #ff7d68 100%)
+  ) !important;
+}
+
+.footer,
+.list-group-item {
+  color: var(--text-color) !important;
+}
+
+.footer .bg-footer {
+  bottom: -7rem;
+  right: 0;
 }

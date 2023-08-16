@@ -5,6 +5,8 @@ import Topsellings from "../components/sections/Topsellings";
 import Booking from "../components/sections/Booking";
 import Testimonials from "../components/sections/Testimonials";
 import Portfolio from "../components/sections/Portfolio";
+import Subscribe from "../components/sections/Subscribe";
+import Footer from "../components/sections/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <Booking />
       <Testimonials />
       <Portfolio />
+      <Subscribe />
+      <Footer />
     </>
   );
 };

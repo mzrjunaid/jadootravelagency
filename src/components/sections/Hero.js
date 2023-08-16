@@ -61,7 +61,7 @@ const Hero = () => {
                 alt="Test"
                 style={{
                   position: "absolute",
-                  height: "35vw",
+                  height: "40rem",
                   right: "5rem",
                   zIndex: 999,
                 }}
