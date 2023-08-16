@@ -8,6 +8,9 @@ import Plane from "../../assets/img/plane.svg";
 import CustomButton from "../ui/Button";
 import SVG from "../ui/SVG";
 
+
+
+
 const Hero = () => {
   return (
     <section style={{ position: "relative" }}>
