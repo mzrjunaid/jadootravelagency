@@ -38,7 +38,7 @@ function NavBar() {
                 {pages.map((page) => (
                   <Nav.Link
                     key={page}
-                    href="#action1"
+                    href={`#${page}`}
                     className="link-text-size nav-menu-link"
                   >
                     {page}

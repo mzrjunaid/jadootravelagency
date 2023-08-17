@@ -16,7 +16,7 @@ const Portfolio = () => {
     cssEase: "linear",
   };
   return (
-    <Container className="portfolio section">
+    <Container className="portfolio section p-5">
       <Slider {...settings}>
         <Col className="d-flex justify-content-center company-logo">
           <Image src="https://s3-alpha-sig.figma.com/img/e499/9d7b/87bf0ba2e08c05efed7641869188b98d?Expires=1693180800&Signature=M3SC3YKGCYc3GKZrQyBQHOGmLJnaMWfHqMzsCtevTPbdreIKDQxYU0~RXG~IfNvmWEX3o6g8D0u~xyhp4cupocqSQzu5PXf60u964iyCyzsmOZwUb3SLRnK69X0qj7gMwP3eITq5S1oEJoJv5CMT-EsuhEsy7-3WNLhYVSnw4mN3PXbskwqIg~bcSNc45E5ZlFjrfjxvcJytpnXunpytuzlBgdk-f364gCtfAuY5pcGpm95P163F3l~rz-Dzxy~AlUQxFaA3dxZ0JG1e5Uu9k~xYmRLjciPq1nLu1MSwprKo33XSGHyqR-CdXdZ9iXTACGd5h74~O9p49vLAB8VEKQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />

@@ -6,9 +6,9 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
 const Testimonials = () => {
   return (
-    <Container className="booking section position-relative pb-5">
+    <Container className="booking section position-relative p-5 my-5">
       <Row>
-        <Col className="col-5">
+        <Col className="col-12 col-sm-5">
           <Row>
             <div className="sec-title-container text-left mb-3 pb-2">
               <h6 className="sec-subtitle text-left text-uppercase">
@@ -18,14 +18,14 @@ const Testimonials = () => {
             </div>
           </Row>
           <Row>
-            <Col className="col-4 mt-5 d-flex justify-content-around indicators">
+            <Col className="col-4 mx-auto mx-sm-0 mt-5 d-flex justify-content-around indicators">
               <FontAwesomeIcon icon={faCircle} size="xs" className="active" />
               <FontAwesomeIcon icon={faCircle} size="xs" />
               <FontAwesomeIcon icon={faCircle} size="xs" />
             </Col>
           </Row>
         </Col>
-        <Col className="col d-flex align-items-center justify-content-center">
+        <Col className="col-12 col-sm-6 d-flex align-items-center justify-content-center">
           <CarouselCustom />
         </Col>
       </Row>

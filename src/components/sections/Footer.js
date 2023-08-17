@@ -10,13 +10,12 @@ import {
 
 import PlayStore from "../../assets/img/playStore.svg";
 import AppleStore from "../../assets/img/appleStore.svg";
-import BgFooter from "../../assets/img/bg-footer.svg";
 
 const Footer = () => {
   return (
-    <Container className="footer section position-relative overflow-hidden">
-      <Row>
-        <Col className="col-3">
+    <Container className="footer section position-relative p-5 overflow-hidden">
+      <Row className="grid row-gap-4">
+        <Col className="col-12 col-md-3">
           <h3 className="fw-bold">Jadoo.</h3>
           <small style={{ fontSize: "0.8125rem" }}>
             Book your trip in minute, get full Control for much longer.
@@ -25,28 +24,46 @@ const Footer = () => {
         <Col>
           <h5 className="fw-bold">Company</h5>
           <ListGroup>
-            <ListGroup.Item className="border-0 p-0">About</ListGroup.Item>
-            <ListGroup.Item className="border-0 p-0">Careers</ListGroup.Item>
-            <ListGroup.Item className="border-0 p-0">Mobile</ListGroup.Item>
+            <ListGroup.Item className="border-0 p-0 bg-transparent">
+              About
+            </ListGroup.Item>
+            <ListGroup.Item className="border-0 p-0 bg-transparent">
+              Careers
+            </ListGroup.Item>
+            <ListGroup.Item className="border-0 p-0 bg-transparent">
+              Mobile
+            </ListGroup.Item>
           </ListGroup>
         </Col>
         <Col>
           <h5 className="fw-bold">Contact</h5>
           <ListGroup>
-            <ListGroup.Item className="border-0 p-0">Help/FAQ</ListGroup.Item>
-            <ListGroup.Item className="border-0 p-0">Press</ListGroup.Item>
-            <ListGroup.Item className="border-0 p-0">Affilates</ListGroup.Item>
+            <ListGroup.Item className="border-0 p-0 bg-transparent">
+              Help/FAQ
+            </ListGroup.Item>
+            <ListGroup.Item className="border-0 p-0 bg-transparent">
+              Press
+            </ListGroup.Item>
+            <ListGroup.Item className="border-0 p-0 bg-transparent">
+              Affilates
+            </ListGroup.Item>
           </ListGroup>
         </Col>
         <Col>
           <h5 className="fw-bold">More</h5>
           <ListGroup>
-            <ListGroup.Item className="border-0 p-0">Airline fees</ListGroup.Item>
-            <ListGroup.Item className="border-0 p-0">Airline</ListGroup.Item>
-            <ListGroup.Item className="border-0 p-0">Low Fare tips</ListGroup.Item>
+            <ListGroup.Item className="border-0 p-0 bg-transparent">
+              Airline fees
+            </ListGroup.Item>
+            <ListGroup.Item className="border-0 p-0 bg-transparent">
+              Airline
+            </ListGroup.Item>
+            <ListGroup.Item className="border-0 p-0 bg-transparent">
+              Low Fare tips
+            </ListGroup.Item>
           </ListGroup>
         </Col>
-        <Col className="col-3 text-center p-2">
+        <Col className="mx-auto col-12 col-md-3 text-center p-2">
           <Row>
             <Col className="d-flex justify-content-evenly">
               <Button className="rounded-circle bg-white border-0 text-black shadow-sm">
@@ -65,8 +82,12 @@ const Footer = () => {
           </Row>
           <Row>
             <Col className="d-flex justify-content-evenly">
-              <Image src={PlayStore} />
-              <Image src={AppleStore} />
+              <Button variant="link" className="p-0">
+                <Image src={PlayStore} />
+              </Button>
+              <Button variant="link" className="p-0">
+                <Image src={AppleStore} />
+              </Button>
             </Col>
           </Row>
         </Col>
@@ -76,7 +97,6 @@ const Footer = () => {
           <p>All rights reserved@jadoo.co</p>
         </Col>
       </Row>
-      <Image src={BgFooter} className="position-absolute bg-footer" />
     </Container>
   );
 };

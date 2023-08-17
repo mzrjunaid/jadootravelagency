@@ -5,7 +5,7 @@ import { Button, Card } from "react-bootstrap";
 
 const CarouselCustom = () => {
   return (
-    <div className="customCarousel position-relative p-3">
+    <div className="customCarousel position-relative">
       <Card className="border-0 p-2">
         <Card.Img
           className="rounded-circle position-absolute fixed-top"
@@ -38,7 +38,7 @@ const CarouselCustom = () => {
           <small>CEO of Red Button</small>
         </Card.Footer>
       </Card>
-      <div className="carousel-control position-absolute">
+      <div className="carousel-control my-auto position-absolute">
         <Button variant="link" className="d-block mb-3 disabled">
           <FontAwesomeIcon icon={faChevronUp} />
         </Button>

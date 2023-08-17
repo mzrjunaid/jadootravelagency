@@ -38,6 +38,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .dropdown-menu {
@@ -121,38 +122,19 @@
   font-size: calc(var(--text-size) + 0.2rem);
 }
 
-.section {
+/* .section {
   padding: 0 9.63rem !important;
   padding-top: 6.06rem !important;
-}
-
-.services-title {
-  background-image: url("../assets/img/stars.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
-.sec-title-container {
-  padding-bottom: 6.06rem !important;
-}
+} */
 
 .sec-subtitle {
   color: var(--text-color);
-  text-transform: uppercase;
-  font-size: 1.125rem;
-  font-weight: 600;
-  line-height: normal;
-  font-style: normal;
-  text-transform: capitalize;
 }
+
 .sec-title {
   color: var(--3rd, #14183e);
   font-family: var(--font-Volkhov);
   font-size: 3.125rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: capitalize;
 }
 
 .services .card {
@@ -208,7 +190,6 @@
   height: 28.5625rem;
   border-radius: 1.5rem !important;
   background: #fff;
-  overflow: hidden !important;
   box-shadow: var(--card-box-shadow);
   border: none !important;
   z-index: 999;
@@ -244,21 +225,25 @@
   margin-left: 1rem;
 }
 
-.selling {
+.selling .card img {
+  border-radius: 1.5rem 1.5rem 0 0 !important;
+}
+.selling .card {
   position: relative;
 }
 
-.selling .decore::after {
+.selling .card:hover::after {
   content: url("../assets/img/Decore.svg");
+  display: block;
   position: absolute;
-  bottom: 2rem;
-  right: 6.3rem;
-  z-index: 1;
+  bottom: 7.5rem;
+  right: -4rem;
+  z-index: -1;
 }
 
 .booking .trip {
   max-width: 23.125rem;
-  min-height: 25rem;
+  height: 25rem;
   flex-shrink: 0;
   border-radius: 1.625rem;
   box-shadow: var(--card-box-shadow);
@@ -269,10 +254,8 @@
 .booking .card .title {
   color: var(--black, #080809);
   font-family: var(--font-poppins);
-  font-size: 1.125rem;
+
   font-style: normal;
-  font-weight: 500;
-  line-height: 1.40063rem;
   letter-spacing: 0.01688rem;
 }
 
@@ -292,7 +275,7 @@
 
 .booking .ongoing-trip {
   bottom: 8rem;
-  right: 8rem;
+  right: 2.2rem;
   width: 16.4375rem;
   flex-shrink: 0;
   z-index: 999;
@@ -317,8 +300,6 @@
 }
 
 .customCarousel .card {
-  margin-top: 3rem;
-  margin-left: 3rem;
   border-radius: 0.625rem;
   color: var(--text-color);
   background: var(--white, #fff);
@@ -338,7 +319,7 @@
 
 .customCarousel .card:nth-child(2) {
   display: block !important;
-  top: 6rem;
+  top: 5rem;
   left: 4rem;
   z-index: 1;
   border: 2px solid #f7f7f7;
@@ -347,8 +328,8 @@
 }
 
 .customCarousel .carousel-control {
-  top: 10rem;
-  right: -4.5rem;
+  top: 7rem;
+  right: -3rem;
 }
 .customCarousel .carousel-control .btn-link {
   color: var(--btn-color) !important;
@@ -377,19 +358,26 @@
 }
 
 .subscribe {
-  background-image: url(../assets/img/starsBottom.svg);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-position-x: 95%;
+  position: relative;
   z-index: 1;
 }
+
+/* .subscribe::after {
+  content: url(../assets/img/starsBottom.svg);
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+} */
 
 .sub-box {
   background-image: url("../assets/img/bg-sub.svg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1.25rem;
-  position: relative;
+  width: 100%;
+  z-index: 999;
 }
 
 .sub-box h4 {
@@ -416,7 +404,11 @@
   color: var(--text-color) !important;
 }
 
-.footer .bg-footer {
-  bottom: -7rem;
+.footer {
+  background-image: url("../assets/img/bg-footer.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0rem;
   right: 0;
 }

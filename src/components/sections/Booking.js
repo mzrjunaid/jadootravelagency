@@ -15,7 +15,7 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 
 const Booking = () => {
   return (
-    <Container className="booking section position-relative">
+    <Container id="Bookings" className="booking section p-5 mb-5 position-relative">
       <Row>
         <Col>
           <Row>
@@ -73,15 +73,15 @@ const Booking = () => {
             </Col>
           </Row>
         </Col>
-        <Col className="col d-flex align-items-center justify-content-center">
-          <Image className="position-absolute" src={BgShadoow} />
+        <Col className="d-flex align-items-center justify-content-center position-relative py-5">
+          <Image className="position-absolute img-fluid" src={BgShadoow} />
           <Card className="border-0 bg-white trip">
             <Card.Img
               className="mb-4"
               src="https://s3-alpha-sig.figma.com/img/bdc4/e9e7/98bb7e15ae87fe31c13c5b3cc6d31461?Expires=1693180800&Signature=JSPP1ckMa7USt~fB7JaFN327~URs7D~brKP~QQOZWgh7LY6Smvi0MHcVytIYop-tOEjdpUHAYcBZDSvcNYcJPsndYe57r9Fo--tQfME8sT~KkOarL~ibv~ksp5UTzVGU~tXRGfELXONg9-ZvvTVedODkN13VCqz~7GLOu4QLSa5Y6rM6ziNmQHS2IwDjlVqU-1WDEfxALFDcJjh1YdUZtG761DI-bUP-m~mNc30NuRY1XFfrqBWOEz7uytJbAZRTZn99F40DE~iTHPtMCEbzUA5uaMrHZdKE~rUQy9276v8y0jDBMfMwGHA-5YAQ8n6M2yL1eg4KLqjTTXjBTrDLog__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
             />
             <Card.Header className="border-0 p-0 bg-white ">
-              <Card.Text className="title mb-3">Trip To Greece</Card.Text>
+              <Card.Text className="title fs-5 lh-base mb-3">Trip To Greece</Card.Text>
               <Card.Text className="text-small m-0">
                 14-29 June | by Robbin joseph
               </Card.Text>
