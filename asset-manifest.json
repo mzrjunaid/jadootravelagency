@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jadootravelagency/static/css/main.41b18ca1.css",
-    "main.js": "/jadootravelagency/static/js/main.8dd6450f.js",
+    "main.css": "/jadootravelagency/static/css/main.cf95da91.css",
+    "main.js": "/jadootravelagency/static/js/main.7e176654.js",
     "static/js/787.c408e15c.chunk.js": "/jadootravelagency/static/js/787.c408e15c.chunk.js",
     "static/media/actress.png": "/jadootravelagency/static/media/actress.d6147572657f5b88776a.png",
     "static/media/Events.svg": "/jadootravelagency/static/media/Events.459b00a47adbd7b45c6712818dfc8fd8.svg",
@@ -15,8 +15,7 @@
     "static/media/building.svg": "/jadootravelagency/static/media/building.2f7d9102de222ad64833eabc8d8136a1.svg",
     "static/media/customization.svg": "/jadootravelagency/static/media/customization.67d028dd0a005d635648ee2bd7b443d7.svg",
     "static/media/bg-sub.svg": "/jadootravelagency/static/media/bg-sub.182dc4c73f6e878d45c0.svg",
-    "static/media/stars.svg": "/jadootravelagency/static/media/stars.48a3af29b07df1b10aaa.svg",
-    "static/media/starsBottom.svg": "/jadootravelagency/static/media/starsBottom.a806be932a75a8e3e8e7.svg",
+    "static/media/stars.svg": "/jadootravelagency/static/media/stars.48a3af29b07df1b10aaa1aff2681d006.svg",
     "static/media/slick.svg": "/jadootravelagency/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/jadootravelagency/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/icon-sub.svg": "/jadootravelagency/static/media/icon-sub.dc33024957853cf4d3ba20a6ddf1722c.svg",
@@ -28,15 +27,16 @@
     "static/media/LEAF.svg": "/jadootravelagency/static/media/LEAF.9b2929f901c5a1239a7565483de74617.svg",
     "static/media/send.svg": "/jadootravelagency/static/media/send.edf25aac26c66600bcc019ae4389b3e0.svg",
     "index.html": "/jadootravelagency/index.html",
-    "static/media/bg-footer.svg": "/jadootravelagency/static/media/bg-footer.ead1b72388fd2d70f947c50a03eea6b8.svg",
+    "static/media/bg-footer.svg": "/jadootravelagency/static/media/bg-footer.ead1b72388fd2d70f947.svg",
+    "static/media/bg-header.svg": "/jadootravelagency/static/media/bg-header.a4b27528f7ddc40e239d1a587499fd99.svg",
     "static/media/bg-shadow.svg": "/jadootravelagency/static/media/bg-shadow.68ee4ca0fc7269f6c8158232f60c5291.svg",
     "static/media/cardrectangle.svg": "/jadootravelagency/static/media/cardrectangle.05a615aa9b2ff1812220.svg",
-    "main.41b18ca1.css.map": "/jadootravelagency/static/css/main.41b18ca1.css.map",
-    "main.8dd6450f.js.map": "/jadootravelagency/static/js/main.8dd6450f.js.map",
+    "main.cf95da91.css.map": "/jadootravelagency/static/css/main.cf95da91.css.map",
+    "main.7e176654.js.map": "/jadootravelagency/static/js/main.7e176654.js.map",
     "787.c408e15c.chunk.js.map": "/jadootravelagency/static/js/787.c408e15c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41b18ca1.css",
-    "static/js/main.8dd6450f.js"
+    "static/css/main.cf95da91.css",
+    "static/js/main.7e176654.js"
   ]
 }
